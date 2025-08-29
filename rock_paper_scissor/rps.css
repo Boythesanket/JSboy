@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: darkgrey;
+    height: 60px;
+    line-height: 50px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 50px;
+}
+
+.choice {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.choice img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#my-score, #comp-score {
+    font-size: 50px;
+}
+
+.msg-container {
+    margin-top: 60px;
+}
+
+#msg {
+    color: white;
+    font-size: 30px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.win {
+    background-color: green;
+    color: white;
+}
+
+.lose {
+    background-color: red;
+    color: white;
+}
+
+.draw {
+    background-color: rgb(22, 22, 49);
+    color: white;
+}
+
+.reset-game {
+    margin-top: 40px;
+}
+
+#reset {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.reset-msg {
+    color: white;
+    background-color: rgb(22, 22, 49);
+}
