@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #352e97, #e7491d);  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do {
+    background-color: white;
+    width: 70vh;
+    margin: 100px auto;
+    padding: 40px 40px;
+    border-radius: 20px;
+}
+
+.to-do h2 {
+    display: flex;
+    align-items: center;
+    color: #352e97;
+    margin-bottom: 20px;
+}
+
+.to-do h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.input-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #a8e0e9;
+    border-radius: 10px;
+}
+
+#input-box {
+    height: 30px;
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.input-btn button {
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    background: #e95e38;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    left: 1px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(images/check.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background-color: #edeef0;
+}
