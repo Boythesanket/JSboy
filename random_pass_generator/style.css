@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    background-color: rgb(6, 17, 51);
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.display {
+    background-color: white;
+    width: 90vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.display img {
+    width: 60px;
+    cursor: pointer;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: rgb(93, 245, 93);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container span {
+    color: white;
+    border-bottom: 4px solid rgb(93, 245, 93);
+    padding-bottom: 3px;
+}
+
+#password {
+    width: 50vh;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+
+.gen-pass img {
+    width: 30px;
+}
+
+.gen-pass {
+    margin-top: 20px;
+    height: 50px;
+    width: 40vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(93, 245, 93);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.gen-pass:hover {
+    background-color: rgb(51, 88, 51);
+}
