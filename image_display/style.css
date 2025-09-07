@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+
+.imgDiv {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.imgDiv img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
