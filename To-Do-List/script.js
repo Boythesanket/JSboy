@@ -2,6 +2,8 @@ const inputBox = document.getElementById('input-box');
 const listCon = document.querySelector('.list-container');
 const addBtn = document.getElementById('btn');
 
+console.log(addBtn);
+
 addBtn.addEventListener('click', () => {
     if(inputBox.value === ''){
         alert('you must write something!');
