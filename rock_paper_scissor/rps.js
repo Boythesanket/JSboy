@@ -36,6 +36,8 @@ const drawGame = () => {
     msg.classList.remove('reset-msg');
 }
 
+console.log(draw game);
+
 const showWinner = (userWin) => {
     if (userWin) {
         msg.innerText = 'You win';
