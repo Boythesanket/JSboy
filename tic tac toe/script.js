@@ -4,6 +4,8 @@ let newGame = document.querySelector('.new-game');
 let msgBox = document.querySelector('.msg-box');
 let msg = document.querySelector('#msg');
 
+if (msg);
+   console.log(msg);
 
 let turnO = true;
 
